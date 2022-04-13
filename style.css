@@ -1,0 +1,39 @@
+.container-circle div{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.circle1{
+    background-color: rgb(0, 136, 255);
+    transition: all .5s;
+}
+
+.circle2{
+background-color: aqua;
+transition: all .5s;
+}
+
+.circle3{
+background-color: black;
+transition: all .5s;
+}
+
+.circle4{
+background-color: blue;
+transition: all .5s;
+}
+
+.circle5{
+    background-color: brown;
+transition: all .5s;
+}
+
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5{
+    transform: translateX(200px);
+}
